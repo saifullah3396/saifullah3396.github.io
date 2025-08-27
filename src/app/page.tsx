@@ -550,7 +550,7 @@ export default async function Home() {
             </h1>
           </div>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Hi, I'm Saifullah, a research software developer and PhD candidate at the German Research Center for Artificial Intelligence (DFKI) GmbH. My work explores Explainable AI, Privacy-Preserving Machine Learning, and Model Robustness in Document Intelligence. Outside of research, I enjoy robotics and gaming.
+            Hi, I&apos;m Saifullah, a research software developer and PhD candidate at the German Research Center for Artificial Intelligence (DFKI) GmbH. My work explores Explainable AI, Privacy-Preserving Machine Learning, and Model Robustness in Document Intelligence. Outside of research, I enjoy robotics and gaming.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

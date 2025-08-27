@@ -70,17 +70,17 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Hi, I’m Saifullah. 
+            Hi, I&apos;m Saifullah. 
             </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
 <p>
-  I’ve loved computers and video games for as long as I can remember, so programming came naturally. I started coding in 2012 with a C/C++ course at university, building a GUI-based Reversi game, and soon got into robotics—first aerial robotics with MATLAB, then humanoid robots for my Bachelor’s and Master’s projects.
+  I&apos;ve loved computers and video games for as long as I can remember, so programming came naturally. I started coding in 2012 with a C/C++ course at university, building a GUI-based Reversi game, and soon got into robotics—first aerial robotics with MATLAB, then humanoid robots for my Bachelor&apos;s and Master&apos;s projects.
 </p>
 <p>
-  At the RISE Lab, I worked on motion control, kinematics, computer vision, SLAM, and behavior planning. I also led my university’s RoboCup team, designing autonomous humanoid robots to play football and gaining hands-on experience in C++ and Python across robotics systems.
+  At the RISE Lab, I worked on motion control, kinematics, computer vision, SLAM, and behavior planning. I also led my university&apos;s RoboCup team, designing autonomous humanoid robots to play football and gaining hands-on experience in C++ and Python across robotics systems.
 </p>
 <p>
-  After my Master’s, I joined NCAI, Pakistan, leading projects in UAVs, robotics, and computer vision. I worked on real-time object tracking, GPU-accelerated obstacle avoidance, and full backend/frontend pipelines—bringing together complex systems from low-level code to real-time applications.
+  After my Master&apos;s, I joined NCAI, Pakistan, leading projects in UAVs, robotics, and computer vision. I worked on real-time object tracking, GPU-accelerated obstacle avoidance, and full backend/frontend pipelines—bringing together complex systems from low-level code to real-time applications.
 </p>
 <p>
   Now, as a PhD student in Germany, I focus on deep learning, document analysis, explainable AI, and privacy-preserving ML. With over 12 years of programming experience, I enjoy turning challenging problems into working solutions, whether in robotics, AI, or computer vision.
