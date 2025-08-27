@@ -1,0 +1,50 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".next": true,
+        "node_modules": true,
+        "components.json":false, 
+        "package-lock.json": false,
+        "package.json": false,
+        "yarn.lock": true,
+        "eslint.config.mjs": false,
+        "postcss.config.mjs": true,
+        "tsconfig.json": false,
+        "next-env.d.ts": false,
+        "next.config.ts": false,
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+        // "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "explicit",
+        "source.sortMembers": "explicit"
+    },
+    "git.enableSmartCommit": true,
+    "files.autoSave": "off",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "git.ignoreWindowsGit27Warning": true,
+    "editor.tabSize": 2,
+    "[dotenv]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "html.autoClosingTags": false,
+    "typescript.autoClosingTags": false,
+    "javascript.autoClosingTags": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "editor.inlineSuggest.enabled": true,
+}
