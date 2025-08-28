@@ -103,14 +103,15 @@ const projects = [
   },
   {
     name: 'DeepStream Media',
-    description: 'A NVIDIA Deepstream pipeline for real-time detection and tracking of individuals in media news channels.',
+    description:
+      'A NVIDIA Deepstream pipeline for real-time detection and tracking of individuals in media news channels.',
     link: {
       href: 'https://github.com/saifullah3396/deepstream-media',
       label: 'github.com',
     },
   },
   {
-    name: "DeepStream Retail App",
+    name: 'DeepStream Retail App',
     description:
       'A NVIDIA Deepstream pipeline for real-time tracking of traffic and analytics in retail stores.',
     link: {
