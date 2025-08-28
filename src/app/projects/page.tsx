@@ -117,7 +117,7 @@ const projects = [
       href: 'https://gist.github.com/saifullah3396/363353dc24d856c37a33cba310063fa7',
       label: 'github.com',
     },
-  }
+  },
   {
     name: 'AutoFortnite',
     description:
