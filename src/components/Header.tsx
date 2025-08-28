@@ -142,7 +142,6 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
   );
 }
 
-
 function clamp(number: number, a: number, b: number) {
   const min = Math.min(a, b);
   const max = Math.max(a, b);

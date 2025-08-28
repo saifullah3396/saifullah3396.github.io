@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import Link from 'next/link';
 
 import { ContainerInner, ContainerOuter } from '@/components/Container';

@@ -1,93 +1,134 @@
 import { type Metadata } from 'next';
 
 import { SimpleLayout } from '@/components/SimpleLayout';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import Link from "next/link";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
+import Link from 'next/link';
 
 const projects = [
   {
     name: 'Atria',
     description:
       'Atria Core is a PyTorch-based toolkit designed for training and testing machine learning and deep learning models at scale.',
-    link: { href: 'https://github.com/saifullah3396/atria', label: 'github.com' },
+    link: {
+      href: 'https://github.com/saifullah3396/atria',
+      label: 'github.com',
+    },
   },
   {
     name: 'TorchXAI',
     description:
       'TorchXAI provides efficient implementations of several XAI (Explainable AI) metrics that seamlessly integrate with the Captum library. ',
-    link: { href: 'https://github.com/saifullah3396/torchxai', label: 'github.com' },
+    link: {
+      href: 'https://github.com/saifullah3396/torchxai',
+      label: 'github.com',
+    },
   },
   {
     name: 'DP-DocLDM',
     description:
       'An approach to generate differentially private document image datasets using layout-conditioned latent diffusion models',
-    link: { href: 'https://github.com/saifullah3396/dpdocldm', label: 'github.com' },
+    link: {
+      href: 'https://github.com/saifullah3396/dpdocldm',
+      label: 'github.com',
+    },
   },
   {
     name: 'DocXClassifier',
     description:
       'An approach for augmenting existing CNN-based classifiers with pyramid-attention modules to introduce inherent interpretability.',
-    link: { href: 'https://github.com/saifullah3396/docxclassifier', label: 'github.com' },
+    link: {
+      href: 'https://github.com/saifullah3396/docxclassifier',
+      label: 'github.com',
+    },
   },
   {
     name: 'ColDBin',
     description:
       'An approach to document image binarization through cold diffusion.',
-    link: { href: 'https://github.com/saifullah3396/vfh3d', label: 'github.com' },
+    link: {
+      href: 'https://github.com/saifullah3396/vfh3d',
+      label: 'github.com',
+    },
   },
   {
-    name: "DocAL",
+    name: 'DocAL',
     description:
-      "A complete toolkit for active learning for deep learning classification tasks.",
+      'A complete toolkit for active learning for deep learning classification tasks.',
     link: {
-      href: 'https://github.com/saifullah3396/doc_al', label: 'github.com'
+      href: 'https://github.com/saifullah3396/doc_al',
+      label: 'github.com',
     },
   },
   {
-    "name": "DocRobustness",
-    "description": "Toolkit for generating and evaluating corruptness robustness benchmark for document images.",
+    name: 'DocRobustness',
+    description:
+      'Toolkit for generating and evaluating corruptness robustness benchmark for document images.',
     link: {
-      href: 'https://github.com/saifullah3396/doc_robustness', label: 'github.com'
+      href: 'https://github.com/saifullah3396/doc_robustness',
+      label: 'github.com',
     },
   },
   {
-    "name": "DocXAI",
-    "description": "Toolkit for explainable AI for document image classification.",
+    name: 'DocXAI',
+    description:
+      'Toolkit for explainable AI for document image classification.',
     link: {
-      href: 'https://github.com/saifullah3396/docxai', label: 'github.com'
+      href: 'https://github.com/saifullah3396/docxai',
+      label: 'github.com',
     },
   },
   {
     name: 'Mavros/MoveIt',
     description:
       'A complete toolkit for integrating MoveIt motion planning with MAVROS-based aerial robots in ROS.',
-    link: { href: 'https://github.com/saifullah3396/mavros_moveit', label: 'github.com' },
+    link: {
+      href: 'https://github.com/saifullah3396/mavros_moveit',
+      label: 'github.com',
+    },
   },
   {
     name: 'RosGym',
     description:
       'A toolkit for integrating Gym with ROS for training reinforcement learning agents on robots in ROS/AirSim-based simulated environments.',
-    link: { href: 'https://github.com/saifullah3396/ros_gym', label: 'github.com' },
+    link: {
+      href: 'https://github.com/saifullah3396/ros_gym',
+      label: 'github.com',
+    },
   },
   {
     name: 'VFH3D+',
     description:
       'An octomap based VFH+ algorithm in 3D for local planning of UAVs (or any robot in 3D).',
-    link: { href: 'https://github.com/saifullah3396/vfh3d', label: 'github.com' },
+    link: {
+      href: 'https://github.com/saifullah3396/vfh3d',
+      label: 'github.com',
+    },
   },
   {
     name: 'AutoFortnite',
     description:
       'AutoFortnite project was about controlling a fortnite player with external controller' +
       'inputs autonomously with realtime streamed visual game inputs handled by NVIDIA DeepStream SDK.',
-    link: { href: 'https://github.com/saifullah3396/auto_fortnite', label: 'github.com' },
+    link: {
+      href: 'https://github.com/saifullah3396/auto_fortnite',
+      label: 'github.com',
+    },
   },
   {
     name: 'Irl2DRos',
     description:
       'A ros based navigation package for 2d mobile robots (focused on Pioneer 3AT) developed at IRL Robotics Lab, NUST.',
-    link: { href: 'https://github.com/saifullah3396/irl_2d_ros', label: 'github.com' },
-  }
+    link: {
+      href: 'https://github.com/saifullah3396/irl_2d_ros',
+      label: 'github.com',
+    },
+  },
 ];
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -112,11 +153,11 @@ export default function Projects() {
     >
       <ul
         role="list"
-        className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3 overflow-y-auto h-128"
+        className="grid h-128 grid-cols-1 gap-x-12 gap-y-16 overflow-y-auto sm:grid-cols-2 lg:grid-cols-3"
       >
         {projects.map((project) => (
           <li key={project.name}>
-            <Card className="h-full flex flex-col border-0">
+            <Card className="flex h-full flex-col border-0">
               <CardHeader>
                 <CardTitle>
                   <Link href={project.link.href} className="hover:underline">
@@ -124,7 +165,7 @@ export default function Projects() {
                   </Link>
                 </CardTitle>
               </CardHeader>
-              <CardContent className="flex-1 flex flex-col justify-between">
+              <CardContent className="flex flex-1 flex-col justify-between">
                 <CardDescription>{project.description}</CardDescription>
                 <Link
                   href={project.link.href}
