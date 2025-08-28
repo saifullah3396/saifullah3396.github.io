@@ -129,6 +129,41 @@ const projects = [
       label: 'github.com',
     },
   },
+  {
+    name: 'UAV Exploration',
+    description:
+      'A frontier based exploration algorithm for navigating through unknown environments and generating a map based on octomaps.',
+    link: {
+      href: 'https://github.com/saifullah3396/frontier_based_exploration',
+      label: 'github.com',
+    },
+  },
+  {
+    name: 'ORB-SLAM',
+    description:
+      'A custom ROS-based implementation of the popular ORB-SLAM algorithm for monocular/RGB-D cameras with bundle-adjustment.',
+    link: {
+      href: 'https://github.com/saifullah3396/frontier_based_exploration',
+      label: 'github.com',
+    },
+  },
+  {
+    name: 'DeepStream Media',
+    description: 'A NVIDIA Deepstream pipeline for real-time detection and tracking of individuals in media news channels.',
+    link: {
+      href: 'https://github.com/saifullah3396/deepstream-media',
+      label: 'github.com',
+    },
+  },
+  {
+    name: "DeepStream Retail App",
+    description:
+      'A NVIDIA Deepstream pipeline for real-time tracking of traffic and analytics in retail stores.',
+    link: {
+      href: 'https://gist.github.com/saifullah3396/363353dc24d856c37a33cba310063fa7',
+      label: 'github.com',
+    },
+  }
 ];
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
