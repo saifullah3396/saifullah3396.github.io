@@ -102,14 +102,22 @@ const projects = [
     },
   },
   {
-    name: 'VFH3D+',
-    description:
-      'An octomap based VFH+ algorithm in 3D for local planning of UAVs (or any robot in 3D).',
+    name: 'DeepStream Media',
+    description: 'A NVIDIA Deepstream pipeline for real-time detection and tracking of individuals in media news channels.',
     link: {
-      href: 'https://github.com/saifullah3396/vfh3d',
+      href: 'https://github.com/saifullah3396/deepstream-media',
       label: 'github.com',
     },
   },
+  {
+    name: "DeepStream Retail App",
+    description:
+      'A NVIDIA Deepstream pipeline for real-time tracking of traffic and analytics in retail stores.',
+    link: {
+      href: 'https://gist.github.com/saifullah3396/363353dc24d856c37a33cba310063fa7',
+      label: 'github.com',
+    },
+  }
   {
     name: 'AutoFortnite',
     description:
@@ -148,22 +156,14 @@ const projects = [
     },
   },
   {
-    name: 'DeepStream Media',
-    description: 'A NVIDIA Deepstream pipeline for real-time detection and tracking of individuals in media news channels.',
+    name: 'VFH3D+',
+    description:
+      'An octomap based VFH+ algorithm in 3D for local planning of UAVs (or any robot in 3D).',
     link: {
-      href: 'https://github.com/saifullah3396/deepstream-media',
+      href: 'https://github.com/saifullah3396/vfh3d',
       label: 'github.com',
     },
   },
-  {
-    name: "DeepStream Retail App",
-    description:
-      'A NVIDIA Deepstream pipeline for real-time tracking of traffic and analytics in retail stores.',
-    link: {
-      href: 'https://gist.github.com/saifullah3396/363353dc24d856c37a33cba310063fa7',
-      label: 'github.com',
-    },
-  }
 ];
 
 function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
