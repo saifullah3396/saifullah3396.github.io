@@ -39,7 +39,7 @@
     "typescript.autoClosingTags": false,
     "javascript.autoClosingTags": false,
     "[typescriptreact]": {
-        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[typescript]": {
         "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
