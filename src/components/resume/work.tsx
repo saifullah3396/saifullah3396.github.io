@@ -50,7 +50,7 @@ export function Work() {
     <Section
       title="Work"
       icon={<Briefcase className="h-5 w-5" />}
-      className="h-64"
+      className="h-48"
     >
       <ol className="space-y-4">
         {work.map((role, idx) => (

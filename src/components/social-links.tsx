@@ -5,7 +5,7 @@ interface SocialLinkProps {
   className?: string;
   href: string;
   icon: React.ComponentType<{ className?: string }>;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export function SocialLink({

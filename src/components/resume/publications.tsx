@@ -108,7 +108,7 @@ export function Publications() {
     <Section
       title="Publications"
       icon={<BookOpen className="h-5 w-5" />}
-      className="h-261"
+      className="h-296"
     >
       <ol className="space-y-4">
         {publications.map((pub, idx) => (

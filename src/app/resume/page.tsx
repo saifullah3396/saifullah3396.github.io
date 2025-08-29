@@ -1,5 +1,6 @@
 import { Container } from '@/components/Container';
 import { Education } from '@/components/resume/education';
+import { Exchange } from '@/components/resume/exchange';
 import { Publications } from '@/components/resume/publications';
 import { Skills } from '@/components/resume/skills';
 import { Work } from '@/components/resume/work';
@@ -33,27 +34,19 @@ export default function Resume() {
             <SocialLink
               href="https://github.com/saifullah3396"
               icon={GitHubIcon}
-            >
-              Follow on GitHub
-            </SocialLink>
+            ></SocialLink>
             <SocialLink
               href="https://www.linkedin.com/in/saifullah3396/"
               icon={LinkedInIcon}
-            >
-              Follow on LinkedIn
-            </SocialLink>
+            ></SocialLink>
             <SocialLink
               href="https://scholar.google.com/citations?user=3OOMugoAAAAJ&hl=en"
               icon={GoogleScholarIcon}
-            >
-              Google Scholar
-            </SocialLink>
+            ></SocialLink>
             <SocialLink
               href="mailto:saifullah.saifullah@dfki.de"
               icon={MailIcon}
-            >
-              saifullah.saifullah@dfki.de
-            </SocialLink>
+            ></SocialLink>
           </div>
           <Button asChild variant="secondary" className="-mt-1">
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -65,16 +58,17 @@ export default function Resume() {
 
       <Container className="mt-12">
         <div className="flex h-full flex-col gap-8 lg:flex-row">
-          <div className="min-w-0 flex-1">
-            <Publications />
-          </div>
-
           <div className="flex min-w-0 flex-1 flex-col gap-8">
             <div className="space-y-8">
               <Work />
               <Education />
+              <Exchange />
               <Skills />
             </div>
+          </div>
+
+          <div className="min-w-0 flex-1">
+            <Publications />
           </div>
         </div>
       </Container>

@@ -139,6 +139,15 @@ const projects = [
     },
   },
   {
+    name: 'Team-NUST SPL Codebase',
+    description:
+      "The codebase for Team NUST's Standard Platform League (SPL) team for RoboCup, using NAO humanoid robots.",
+    link: {
+      href: 'https://github.com/saifullah3396/team-nust-robocup-v2',
+      label: 'github.com',
+    },
+  },
+  {
     name: 'UAV Exploration',
     description:
       'A frontier based exploration algorithm for navigating through unknown environments and generating a map based on octomaps.',

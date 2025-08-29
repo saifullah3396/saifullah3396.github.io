@@ -63,7 +63,7 @@ export function Skills() {
     <Section
       title="Skills"
       icon={<WandSparklesIcon className="h-5 w-5" />}
-      className="h-64"
+      className="h-48"
     >
       <div className="space-y-4">
         {skills.map((skill, idx) => (

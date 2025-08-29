@@ -28,31 +28,42 @@ export default function Home() {
             <p>
               I&apos;ve loved computers and video games for as long as I can
               remember, so programming came naturally. I started coding in 2012
-              with a C/C++ course at university, building a GUI-based Reversi
-              game, and soon got into robotics—first aerial robotics with
-              MATLAB, then humanoid robots for my Bachelor&apos;s and
-              Master&apos;s projects.
+              with a C/C++ course at university, building a Reversi game
+              project, and soon got into robotics, first aerial robotics, then
+              humanoid robotics for my Bachelor&apos;s and Master&apos;s theses.
             </p>
             <p>
-              At the RISE Lab, I worked on motion control, kinematics, computer
-              vision, SLAM, and behavior planning. I also led my
-              university&apos;s RoboCup team, designing autonomous humanoid
-              robots to play football and gaining hands-on experience in C++ and
-              Python across robotics systems.
+              During my time working on robotics, I have worked on several
+              areas; motion planning and control, robot kinematics and dynamics,
+              computer vision, SLAM, and behavior planning. I also led my
+              university&apos;s RoboCup team for Standard Platform League,
+              coding autonomous humanoid robots to play football.
             </p>
             <p>
-              After my Master&apos;s, I joined NCAI, Pakistan, leading projects
-              in UAVs, robotics, and computer vision. I worked on real-time
-              object tracking, GPU-accelerated obstacle avoidance, and full
-              backend/frontend pipelines—bringing together complex systems from
-              low-level code to real-time applications.
+              Afterwards, I joined the National Center of Artificial
+              Intelligence (NCAI), Pakistan, leading projects in UAVs, robotics,
+              and deep learning. During this time, I led projects integrating
+              ROS, PX4, and reinforcement learning for UAVs, implemented
+              GPU-accelerated obstacle avoidance algorithms, and deployed
+              real-time computer vision systems with NVIDIA DeepStream. I also
+              worked quite extensively with simulators such as Gazebo, VREP,
+              AirSim, etc.
             </p>
             <p>
-              Now, as a PhD student in Germany, I focus on deep learning,
-              document analysis, explainable AI, and privacy-preserving ML. With
-              over 12 years of programming experience, I enjoy turning
-              challenging problems into working solutions, whether in robotics,
-              AI, or computer vision.
+              Now, as a PhD researcher, I focus on explainable AI, private ML,
+              and robust deep learning for document analysis, with extensive use
+              of PyTorch. During this time time I have explored a wide variety
+              of deep learning areas, and my areas of expertise include
+              multi-modal document analysis, Explainable AI, GenAI, Diffusion
+              Models, Differential Privacy and Distributed Training, Active
+              Learning, and more.
+            </p>
+            <p>
+              I have been coding for more than 10 years, however, there is still
+              so much to learn and explore. I keep myself updated with the
+              latest research and technologies, and I love contributing to
+              open-source projects. When I&apos;m not coding, I enjoy video
+              games and anime!
             </p>
           </div>
         </div>
